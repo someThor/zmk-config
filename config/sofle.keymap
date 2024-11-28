@@ -99,9 +99,9 @@
             //                |      |      |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&trans  &to 0       &to 1      &trans      &trans       &trans                      &trans     &trans    &trans    &trans     &trans  &kp DELETE
-&trans  &trans      &mkp LCLK  &kp UP      &mkp RCLK    &trans                      &kp PG_UP  &trans    &kp UP    &trans     &none   &trans
-&trans  &trans      &kp LEFT   &kp DOWN    &kp RIGHT    &kp CLCK                    &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &none   &trans
+&trans  &to 0       &to 1      &trans       &trans       &trans                      &trans     &trans    &trans    &trans     &trans  &kp DELETE
+&trans  &trans      &mkp LCLK  &mmv MOVE_UP &mkp RCLK    &trans                      &kp PG_UP  &trans    &kp UP    &trans     &none   &trans
+&trans  &trans      &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp CLCK                    &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &none   &trans
 &trans  &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &trans    &trans    &trans  &none      &kp HOME  &none     &kp END    &none   &trans
                     &trans     &trans      &trans       &trans    &trans    &trans  &trans     &trans    &trans    &trans
             >;
