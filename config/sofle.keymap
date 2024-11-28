@@ -92,11 +92,11 @@
             display-name = "raise";
 
             // ------------------------------------------------------------------------------------------------------------
-            // | BTCLR | BT1  | BT2  |  BT3  |  BT4  |  BT5 |                |      |      |       |      |       |       |
-            // |       | INS  | PSCR | GUI   |       |      |                | PGUP |      |   ^   |      |       |       |
-            // |       | ALT  | CTRL | SHIFT |       | CAPS |                | PGDN |   <- |   v   |  ->  |  DEL  | BKSPC |
-            // |       | UNDO | CUT  | COPY  | PASTE |      |      |  |      |      |      |       |      |       |       |
-            //                |      |       |       |      |      |  |      |      |      |       |      |
+            // |       | TO 0 | TO 1 |      |       |      |                |      |      |       |      |       |       |
+            // |       | INS  |   ^  | GUI  |       |      |                | PGUP |      |   ^   |      |       |       |
+            // |       |  <-  |   v  |  ->  |       | CAPS |                | PGDN |   <- |   v   |  ->  |  DEL  | BKSPC |
+            // |       | UNDO | CUT  | COPY | PASTE |      |      |  |      |      |      | HOME  |      |  END  |       |
+            //                |      |      |       |      |      |  |      |      |      |       |      |
 
             bindings = <
 &trans  &to 0       &to 1      &trans      &trans       &trans                      &trans     &trans    &trans    &trans     &trans  &kp DELETE
