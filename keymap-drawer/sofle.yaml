@@ -176,7 +176,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: $$mdi:arrow-down-box$$, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -240,7 +240,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: $$mdi:arrow-up-box$$, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -298,10 +298,10 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - {t: $$mdi:arrow-down-box$$, type: held}
   - ''
   - ''
-  - {type: held}
+  - {t: $$mdi:arrow-up-box$$, type: held}
   - ''
   - ''
   - ''
