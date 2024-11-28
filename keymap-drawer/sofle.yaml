@@ -1,0 +1,307 @@
+layout: {qmk_keyboard: sofle/rev1}
+layers:
+  win:
+  - {t: "|", s: '§'}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '"'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: '¤'}
+  - {t: '5', s: '%'}
+  - {t: '6', s: '&'}
+  - {t: '7', s: '/'}
+  - {t: '8', s: '('}
+  - {t: '9', s: ')'}
+  - {t: '0', s: '='}
+  - $$mdi:backspace-outline$$
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - Å
+  - ESC
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - Ø
+  - Æ
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - {t: MUTE, s: $$mdi:volume-plus$$, h: $$mdi:volume-minus$$}
+  - {s: $$mdi:mouse-move-up$$, h: $$mdi:mouse-move-down$$}
+  - N
+  - M
+  - {t: ',', s: ';'}
+  - {t: '.', s: ':'}
+  - {t: '-', s: '_'}
+  - {t: $$mdi:keyboard-return$$, h: $$mdi:apple-keyboard-shift$$}
+  - $$mdi:microsoft-windows$$
+  - Alt
+  - Ctrl
+  - $$mdi:arrow-down-box$$
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
+  - $$mdi:arrow-up-box$$
+  - AltGr
+  - Ctrl
+  - $$mdi:microsoft-windows$$
+  mac:
+  - {t: "|", s: '§'}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '"'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: '¤'}
+  - {t: '5', s: '%'}
+  - {t: '6', s: '&'}
+  - {t: '7', s: '/'}
+  - {t: '8', s: '('}
+  - {t: '9', s: ')'}
+  - {t: '0', s: '='}
+  - $$mdi:backspace-outline$$
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - Å
+  - ESC
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - Ø
+  - Æ
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - {t: MUTE, s: $$mdi:volume-plus$$, h: $$mdi:volume-minus$$}
+  - {s: $$mdi:mouse-move-up$$, h: $$mdi:mouse-move-down$$}
+  - N
+  - M
+  - {t: ',', s: ';'}
+  - {t: '.', s: ':'}
+  - {t: '-', s: '_'}
+  - {t: $$mdi:keyboard-return$$, h: $$mdi:apple-keyboard-shift$$}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:arrow-down-box$$
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
+  - $$mdi:arrow-up-box$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
+  lower:
+  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - {t: "|", s: '§'}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '"'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: '¤'}
+  - {t: '5', s: '%'}
+  - {t: '6', s: '&'}
+  - {t: '7', s: '/'}
+  - {t: '8', s: '('}
+  - {t: '9', s: ')'}
+  - {t: '0', s: '='}
+  - F12
+  - {t: ▽, type: trans}
+  - Select All
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '['
+  - ']'
+  - '{'
+  - '}'
+  - {t: '+', s: '?'}
+  - {t: '=', s: '`'}
+  - {t: ▽, type: trans}
+  - Undo
+  - Cut
+  - Copy
+  - Paste
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '<'
+  - '>'
+  - {t: '¨', s: '^'}
+  - '~'
+  - {t: "'", s: '*'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  raise:
+  - {t: ▽, type: trans}
+  - {t: win, h: toggle}
+  - {t: mac, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - DELETE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - UP
+  - '&mkp RCLK'
+  - {t: ▽, type: trans}
+  - PG UP
+  - {t: ▽, type: trans}
+  - $$mdi:arrow-up$$
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
+  - CLCK
+  - PG DN
+  - $$mdi:arrow-left$$
+  - $$mdi:arrow-down$$
+  - $$mdi:arrow-right$$
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - HOME
+  - ''
+  - END
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  adjust:
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - RGB_SPI
+  - RGB_BRI
+  - RGB_SAI
+  - RGB_HUI
+  - RGB_EFF
+  - RGB_TOG
+  - EP TOG
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - RGB_SPD
+  - RGB_BRD
+  - RGB_SAD
+  - RGB_HUD
+  - RGB_EFR
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
