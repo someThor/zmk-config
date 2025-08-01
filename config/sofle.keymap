@@ -13,16 +13,17 @@
 
 / {
         left_encoder: encoder_left {
-        steps = <20>; // default is 80, datasheet says 15
+        steps = <40>; // default is 80, datasheet says 15
     };
 
     right_encoder: encoder_right {
-        steps = <20>; // default is 80, datasheet says 15
+        steps = <40>; // default is 80, datasheet says 15
     };
 
     sensors {
         compatible = "zmk,keymap-sensors";
         sensors = <&left_encoder &right_encoder>;
+        triggers-per-rotation = <20>;
     };
 
     // Activate ADJUST layer by pressing raise and lower
