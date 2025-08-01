@@ -13,11 +13,11 @@
 
 / {
         left_encoder: encoder_left {
-        steps = <40>; // default is 80, datasheet says 15
+        steps = <30>; // default is 80, datasheet says 15
     };
 
     right_encoder: encoder_right {
-        steps = <40>; // default is 80, datasheet says 15
+        steps = <30>; // default is 80, datasheet says 15
     };
 
     sensors {
