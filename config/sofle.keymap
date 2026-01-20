@@ -13,11 +13,13 @@
 
 / {
     left_encoder: encoder_left {
-        steps = <40>; // default is 80, datasheet says 15
+        compatible = "alps,ec11";
+        steps = <15>; // default is 80, datasheet says 15
     };
 
     right_encoder: encoder_right {
-        steps = <40>; // default is 80, datasheet says 15
+        compatible = "alps,ec11";
+        steps = <15>; // default is 80, datasheet says 15
     };
 
     sensors {
@@ -83,7 +85,7 @@
         Backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <22 23>;
-        }
+        };
     };
 
     keymap {
