@@ -13,10 +13,6 @@
 
 / {
 
-    &sensors {
-        triggers-per-rotation = <20>;
-    };
-
     // Activate ADJUST layer by pressing raise and lower
 
     conditional_layers {
