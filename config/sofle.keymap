@@ -14,13 +14,7 @@
 / {
 
     &sensors {
-        left_config {
-            triggers-per-rotation = <18>;
-        };
-
-        right_config {
-            triggers-per-rotation = <20>;
-        };
+        triggers-per-rotation = <20>;
     };
 
     // Activate ADJUST layer by pressing raise and lower
