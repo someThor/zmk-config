@@ -68,12 +68,12 @@
 
         LessThan {
             bindings = <&kp NON_US_BSLH>;
-            key-positions = <16 15>;
+            key-positions = <36 37>;
         };
 
         GreaterThan {
             bindings = <&kp RS(NON_US_BSLH)>;
-            key-positions = <16 17>;
+            key-positions = <37 38>;
         };
 
         Backspace {
